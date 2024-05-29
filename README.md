@@ -18,7 +18,7 @@ To run the Python scripts and web app, make sure to install the following librar
 - pandas
 - sqlalchemy
 
-#### **app.py**
+#### **run.py**
 - flask
 - plotly
 - nltk
