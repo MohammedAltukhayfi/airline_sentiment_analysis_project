@@ -94,6 +94,7 @@ The project includes a web app where users can input new messages and receive se
      - **F1-Score**: 67% (macro avg)
 
 3. **Justification for Chosen Metrics**:
+
 Given the highly imbalanced nature of the data in this project, it's crucial to choose metrics that adequately address the challenges posed by such an imbalance. Below, I have provided a justification for the selected metrics, specifically tailored to handle the imbalanced dataset in this project.
 
     - **Precision (per class)**: Precision is crucial to reduce false positives, especially in minority classes like neutral and positive sentiments.
