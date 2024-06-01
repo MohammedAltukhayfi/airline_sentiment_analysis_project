@@ -96,13 +96,9 @@ The project includes a web app where users can input new messages and receive se
 3. **Justification for Chosen Metrics**:
 
 Given the highly imbalanced nature of the data in this project, it's crucial to choose metrics that adequately address the challenges posed by such an imbalance. Below, I have provided a justification for the selected metrics, specifically tailored to handle the imbalanced dataset in this project.
-
     - **Precision (per class)**: Precision is crucial to reduce false positives, especially in minority classes like neutral and positive sentiments.
-
     - **Recall (per class)**: Recall ensures that the model captures most of the relevant instances, reducing false negatives, which is important for comprehensive sentiment detection.
-
     - **F1-Score (per class and macro average)**: The F1-score, particularly the macro average, balances the performance across all classes, ensuring that the evaluation does not overly favour the majority class (negative). This is essential for an imbalanced dataset to provide a holistic view of the model performance.
-
     - **Accuracy**: While accuracy gives an overall measure of correctness, it can be misleading in imbalanced datasets. However, it is still useful as a basic metric to gauge the model’s performance. Accuracy indicates a general performance but needs to be supplemented with other metrics for a comprehensive evaluation.
 
 4. **Web App Development**:
